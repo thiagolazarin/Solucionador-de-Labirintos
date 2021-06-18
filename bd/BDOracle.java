@@ -16,7 +16,7 @@ public class BDOracle
             comando = new MeuPreparedStatement (
                       "oracle.jdbc.driver.OracleDriver",
                       "jdbc:oracle:thin:@localhost:1521/XE",
-                      "system","Sg235wd22");
+                      "USUARIO","SENHA");
         }
         catch (Exception erro)
         {
